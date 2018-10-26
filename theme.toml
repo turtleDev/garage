@@ -1,8 +1,9 @@
-name = "Coder"
+name = "Garage"
 license = "MIT"
-licenselink = "https://github.com/luizdepra/hugo-coder/blob/master/LICENSE.md"
-description = "A simple and clean blog theme for Hugo"
-homepage = "https://github.com/luizdepra/hugo-coder/"
+licenselink = "https://github.com/turtleDev/garage/blob/master/LICENSE.md"
+description = "turtleDev's personal webpage theme"
+homepage = "https://github.com/luizdep/garage/"
+
 tags = [
   "blog",
   "minimal",
@@ -12,6 +13,7 @@ tags = [
   "clean",
   "personal"
 ]
+
 features = [
   "analytics",
   "favicon",
@@ -19,8 +21,9 @@ features = [
   "single-column",
   "syntax-highlighting"
 ]
+
 min_version = "0.43"
 
 [author]
-  name = "Luiz F. A. de Prá"
-  homepage = "https://luizdepra.com"
+    name = "Saravjeet 'Aman' Singh"
+    homepage = "https://turtledev.in"

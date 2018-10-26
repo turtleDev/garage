@@ -1,5 +1,6 @@
 The MIT License (MIT)
 
+Copyright (c) 2018 Saravjeet 'Aman' Singh
 Copyright (c) 2018 Luiz F. A. de Prá
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
