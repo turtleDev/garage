@@ -27,10 +27,10 @@ a {
   font-weight: 300;
   color: $link-color;
   text-decoration: none;
-  &:focus,
-  &:hover {
-    text-decoration: underline;
-  }
+  // &:focus,
+  // &:hover {
+  //   text-decoration: underline;
+  // }
 }
 
 p {

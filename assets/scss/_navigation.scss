@@ -17,7 +17,11 @@
   }
   .navigation-title {
     letter-spacing: 0.1rem;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    &:focus,
+    &:hover {
+      color: initial;
+    }
   }
   .navigation-list {
     float: right;
@@ -53,6 +57,7 @@
       a, span {
         margin-left: 1.0rem;
         margin-right: 1.0rem;
+        transition: 400ms ease-out;
       }
     }
     .menu-separator {
