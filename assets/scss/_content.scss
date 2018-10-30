@@ -71,6 +71,7 @@
         }
       }
       a {
+        transition: 0.15s ease-out;
         font-size: 1.8rem;
         color: $fg-color;
         font-family: $heading-font-family;
