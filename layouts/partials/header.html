@@ -3,8 +3,11 @@
     <a class="navigation-title" href="{{ .Site.BaseURL | absLangURL }}">
       {{ .Site.Title }}
     </a>
+    {{ with .Site.Menus.main }}
     <input type="checkbox" id="menu-toggle" />
     <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    {{ end }}
+
     <ul class="navigation-list">
       {{ with .Site.Menus.main}}
         {{ range sort . }}
